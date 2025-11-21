@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border: #312a86 2px solid;
+    border-radius: 10px;
+    padding: 1vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+form > * {
+    margin: 1vh;
+    padding: 0 5%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column
+}
+.form button[type="submit"] {
+    width: 20%;
+}
+
+.form label {
+    margin-bottom: 3px;
+}
